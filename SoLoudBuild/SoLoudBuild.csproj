@@ -13,7 +13,7 @@
     <PackageIcon>logo_nolabel_128x.png</PackageIcon>
     <RepositoryUrl>https://github.com/Sirplop/Rubedo.SoLoudGlue</RepositoryUrl>
     <PackageLicenseExpression>Zlib</PackageLicenseExpression>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,10 +23,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="soloud_x64.dll">
-      <Pack>true</Pack>
+    <None Include="..\..\SoLoud\lib\soloud_x64.dll">
+      <Pack>True</Pack>
       <PackagePath>lib\$(TargetFramework)</PackagePath>
-    </Content>
+    </None>
   </ItemGroup>
-
 </Project>
